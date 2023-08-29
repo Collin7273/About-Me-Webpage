@@ -51,6 +51,16 @@ p{
     padding: auto;
 
 }
+
+.about{
+    text-align: center;
+    padding: 20px;
+}
+
+.interests{
+    text-align: center;
+    padding: 20px;
+}
 .container{
     background-color: aquamarine;
     
@@ -91,6 +101,40 @@ p{
     display: inline;
     position: top;
     text-align: left;
+}
+
+.interests div p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: inline;
+    text-align: left;
+    padding: -29px;
+}
+
+.intimages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100px; 
+    padding: 20px; 
+}
+
+.intimages figure {
+    margin: 0; 
+    text-align: center;
+    padding: 20px;
+}
+
+.intimages figure img {
+    width: 100%; 
+    border-radius: 10%;
+}
+
+.intimages div{
+    display: flex;
 }
 
 footer{
