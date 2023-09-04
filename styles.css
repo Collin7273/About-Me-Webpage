@@ -137,6 +137,30 @@ p{
     display: flex;
 }
 
+.gimages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.gimages figure {
+    margin: 0;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+.gimages figure img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+.gimages div{
+    display: flex;
+}
+
 footer{
     position: fixed;
     width: 100%;
